@@ -1,3 +1,7 @@
+# Introduction
+
+This package is used to calculate the crystallization of three-dimensional radially growing crystal seeds using a probabilistic method given an initial set of seeds and birth times. As a result the crystallization curve as well as the size distribution is obtained. A constant growth speed is assumed. The core routine is written in Fortran for fast calculation and it is extended in python for easy usage. Please see below the compilation process of the fortran module. Apart of the Fortran module only scientific python packages (numpy, scipy, matplotlib) is needed for efficient usage.
+
 
 # Compiling gcrystal
 ## On linux
